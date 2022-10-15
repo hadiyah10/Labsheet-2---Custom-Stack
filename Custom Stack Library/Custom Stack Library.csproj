@@ -45,6 +45,7 @@
     <Compile Include="CustomStackExtendedOP.cs" />
     <Compile Include="IIntern.cs" />
     <Compile Include="ICustomStack.cs" />
+    <Compile Include="IReadOnlyCustomStack.cs" />
     <Compile Include="Jedi.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SkillsLab.cs" />

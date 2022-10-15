@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace Custom_Stack_Library
 {
-    internal interface IIntern
+    public interface IIntern
     {
         string NameId { get; }       
-    }
+    }  
 }

@@ -10,7 +10,7 @@ namespace Custom_Stack_Library
     internal class CustomStackExtendedOP
     {
         public static void DisplayAllInternsNameAndId(//ICustomStack<Jedi> stackJedi
-                                                       ICustomStack<IIntern> stackJedi)
+                                                       ICustomStack stackJedi) where T: IIntern
         {
             while (stackJedi.Count() > 0)
             {
